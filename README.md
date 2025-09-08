@@ -44,3 +44,20 @@ pip install -r requirements.txt
 python team_analysis.py sample_data.csv
 
 # 4. Откройте report.html в браузере
+
+## Формат CSV файла
+Ваш CSV должен содержать следующие колонки:
+
+date - дата сообщения (YYYY-MM-DD)
+channel - название канала/чат
+member - имя участника
+message - текст сообщения
+
+## Как получить данные из Slack
+В Slack: Workspace Settings → Organization Settings → Import/Export
+Запросите экспорт данных (требуются права администратора)
+Или используйте ручной экспорт через браузер (для небольших объемов):
+Откройте чат в браузере
+Скопируйте историю общения
+Вставьте в Excel и сохраните как CSV
+
